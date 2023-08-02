@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* podría ser también como viewport (height: 100vh) */
+    display: flex;
+    flex-direction: column; /* organizar todo en columnas */
+  }
+  
+  ul {
+    list-style-type: none;
+    text-decoration: none;
+    background-color: rgb(68, 68, 68);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+main {
+    flex: 1; 
+    overflow: auto;
+    height: 60px;
+    font-size: 24px;
+  }
+
+.interactivo {
+    cursor: pointer;
+    transition: all ease-out 250ms;
+    }
+
+.interactivo:hover {
+    padding: 10px;
+    border-bottom: 3px solid #c23469;
+    }
+
+  #sectionBienvenida {
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-size: 20px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #sectionLenguajes {
+    background-color: #1f2233;
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  article {
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 10px;
+  }
+
+  article .uno {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  article .dos {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  article .tres {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+#sectionContacto {
+    background-color: #2e1649;
+    color: aliceblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  article .cuatro {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
